@@ -1,5 +1,5 @@
 import Reactotron from 'reactotron-react-js';
-import { ReactotronRedux, reactotronRedux } from 'reactotron-redux';
+import { reactotronRedux } from 'reactotron-redux';
 
 if (process.env.NODE_ENV === 'development') {
   const tron = Reactotron.configure()
